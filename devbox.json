@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "act@latest",
+    "colima@latest"
+  ],
+  "env": {
+    "DOCKER_HOST": "unix://${HOME}/.colima/default/docker.sock"
+  },
+  "shell": {
+    "init_hook": [
+      "colima start &"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
