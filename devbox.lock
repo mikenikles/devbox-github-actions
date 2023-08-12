@@ -12,6 +12,12 @@
       "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#colima",
       "source": "devbox-search",
       "version": "0.5.5"
+    },
+    "nodejs@latest": {
+      "last_modified": "2023-07-23T03:35:12Z",
+      "resolved": "github:NixOS/nixpkgs/af8cd5ded7735ca1df1a1174864daab75feeb64a#nodejs_20",
+      "source": "devbox-search",
+      "version": "20.5.0"
     }
   }
 }

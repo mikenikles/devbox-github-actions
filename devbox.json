@@ -1,7 +1,8 @@
 {
   "packages": [
     "act@latest",
-    "colima@latest"
+    "colima@latest",
+    "nodejs@latest"
   ],
   "env": {
     "DOCKER_HOST": "unix://${HOME}/.colima/default/docker.sock"
